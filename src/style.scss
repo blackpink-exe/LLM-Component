@@ -1,0 +1,63 @@
+* {
+  color: #fff;
+  scrollbar-color: #e3e3e3 transparent;
+  box-sizing: border-box;
+}
+
+#app,
+html,
+body {
+  height: 100%;
+}
+
+/* 在线链接服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */
+@font-face {
+  font-family: 'iconfont';
+  /* Project id 4759103 */
+  src: url('//at.alicdn.com/t/c/font_4759103_gsudkn5csqf.woff2?t=1732955523674') format('woff2'),
+    url('//at.alicdn.com/t/c/font_4759103_gsudkn5csqf.woff?t=1732955523674') format('woff'),
+    url('//at.alicdn.com/t/c/font_4759103_gsudkn5csqf.ttf?t=1732955523674') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased; //这两个属性用于在不同的浏览器中实现字体的平滑渲染效果。用于WebKit内核的浏览器（如Chrome和Safari）
+  -moz-osx-font-smoothing: grayscale; //用于Firefox浏览器。
+  cursor: pointer;
+}
+
+/* quill-editor样式修改 */
+.pdf-container {
+  margin: 10px 0;
+  border-radius: 25px;
+}
+
+.ql-editor {
+  height: 120px !important;
+  background-color: #393937 !important;
+}
+
+.ql-editor.ql-blank::before {
+  font-size: 18px;
+  color: #9e9a93 !important;
+  caret-color: #fff;
+  /* 设置光标颜色 */
+}
+
+.ql-editor p {
+  padding: 0 60px 0 0;
+  font-size: 18px;
+  background-color: #393937 !important;
+  caret-color: #fff;
+  /* 设置光标颜色 */
+}
+
+.ql-container.ql-snow,
+.ql-editor {
+  border: 1px solid #393937 !important;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3) !important;
+  border-radius: 25px;
+}
+
+/* ------------------------------------------ */
